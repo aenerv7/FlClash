@@ -44,15 +44,6 @@ class AboutFragment extends StatelessWidget {
           },
         ),
         ListItem(
-          title: const Text("Telegram"),
-          onTap: () {
-            globalState.openUrl(
-              "https://t.me/FlClash",
-            );
-          },
-          trailing: const Icon(Icons.launch),
-        ),
-        ListItem(
           title: Text(appLocalizations.project),
           onTap: () {
             globalState.openUrl(

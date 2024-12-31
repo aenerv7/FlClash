@@ -360,8 +360,6 @@ class _WebDAVFormDialogState extends State<WebDAVFormDialog> {
             children: [
               TextFormField(
                 controller: uriController,
-                maxLines: 5,
-                minLines: 1,
                 decoration: InputDecoration(
                   prefixIcon: const Icon(Icons.link),
                   border: const OutlineInputBorder(),
